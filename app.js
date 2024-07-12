@@ -5,7 +5,7 @@ angular.module('weatherApp', [])
     $scope.loading = false;
 
     $scope.getWeather = function () {
-      const apiKey = '1d809cb6ec1c95c051718ffe804ece5a'; // Replace with your actual API key
+      const apiKey = 'API_KEY'; // Replace with your actual API key
       const city = $scope.city;
 
       if (!city) {
